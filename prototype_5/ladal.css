@@ -1,0 +1,21 @@
+
+/*
+ Custom CSS to extend bootstrap
+ LADAL
+
+ Author: Stephen Kennedy-Clark
+ Sept 2020
+ */
+
+
+ body {
+    background: #fff;
+    color: #2b2b2b;
+    cursor: auto;
+    font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+ }
+
+ .paper{
+   background: #EAE7Dc
+ }
+
