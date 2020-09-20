@@ -9,14 +9,43 @@
 
 
  body {
-    background: #fff;
+    background: #EAE7DC;
     color: #2b2b2b;
     cursor: auto;
     font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
  }
 
- .paper{
-   background: #EAE7Dc;
-   border-color: rgb(27, 196, 27);
+ .vl {
+  border-left: 2px solid #EAE7DC
+  height: 500px;
+}
+
+ .nav-red {
+  background: #E85A4F;
+  color: #EAE7DC;
  }
 
+ .paper{
+   background: #D8C3A5;
+   border-color: #eee;
+ }
+
+ .our_people_img {
+  border-color:#eee;
+  max-width: 150px;
+}
+
+H1, H2, H3, H4 {color: #8E8D8A;}
+
+a:hover {color: #E98074;}
+
+#E98074
+
+/*
+Palate parchment via teal to 
+#EAE7DC
+#D8C3A5
+#8E8D8A
+#E98074
+#E85A4F
+*/

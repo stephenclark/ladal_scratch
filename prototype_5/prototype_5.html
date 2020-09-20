@@ -14,30 +14,26 @@
     <title>Our People</title>
   </head>
   <body>
-    <style>
-      .vl {
-        border-left: 2px solid white;
-        height: 500px;
-      }
-      </style>
-      
-      
-    <h1 class="text-light bg-dark mb-0 p-4" >
-      <a  class="text-light text-decoration-none" href="#">LADAL <span class="vl d-none d-lg-inline"></span></a>
-      <small class="ml-4 d-none d-lg-inline"> Language Technology and Data Analysis Laboratory</small></h1><span></span>
+
+    <!-- top part of the page -->
+    <h1 class="mb-0 p-4 nav-red" >
+      <a  class="nav-red text-decoration-none" href="#">
+        LADAL
+        <span class="vl d-none d-lg-inline"></span>
+      </a>
+      <small class="ml-4 d-none d-lg-inline"> Language Technology and Data Analysis Laboratory</small>
+    </h1>
        
-
-
-    <nav class="navbar sticky-top  navbar-expand-lg bg-primary navbar-dark ">
+    <nav class="navbar sticky-top  navbar-expand-lg nav-red">
       
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      <button class="navbar-toggler nav-red" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon nav-red"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item dropdown">
+        <ul class="navbar-nav nav-red">
+          <li class="nav-item dropdown nav-red">
 
-            <a class="nav-link  dropdown-toggle" href="#" id="homeDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home<span class="sr-only">(current)</span></a>
+            <a class="nav-link  dropdown-toggle nav-red" href="#" id="homeDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home<span class="sr-only">(current)</span></a>
             <div class="dropdown-menu" aria-labelledby="homeDropdown">
               <a class="dropdown-item" href="#">Info about LADAL</a>
               <a class="dropdown-item" href="#">History</a>
@@ -49,7 +45,7 @@
           <ul class="navbar-nav">
             <li class="nav-item dropdown">
  
-              <a class="nav-link dropdown-toggle" href="#" id="peopleDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our People</a>
+              <a class="nav-link dropdown-toggle nav-red" href="#" id="peopleDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our People</a>
               <div class="dropdown-menu" aria-labelledby="peopleDropdown">
                 <a class="dropdown-item" href="#">Director</a>
                 <a class="dropdown-item" href="#">PI</a>
@@ -59,16 +55,16 @@
               </div>
             </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Events</a>
+            <a class="nav-link nav-red" href="#">Events</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
+            <a class="nav-link nav-red" href="#">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Tutorials</a>
+            <a class="nav-link nav-red" href="#">Tutorials</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Case Studies and Use Cases</a>
+            <a href="#" class="nav-link nav-red">Case Studies and Use Cases</a>
           </li>
           <!-- 
           <li class="nav-item">
@@ -97,27 +93,43 @@
       
       <div class="jumbotron shadow-lg p-3 mb-5 p-5 border border-info rounded paper">
         <div class="row">
-        <div class="col-md-8 px-0">
-            <h1 class="display-5 font-italic">Michael Haugh</h1>
-            <p class="lead my-3">Michael is Professor of Linguistics and Head of the School of Languages and Cultures. At LADAL, Michael is supervising 
-              the activities of LADAL and promoting its activities across Australia. His research interests lie primarily in the field of pragmatics, 
-              with a focus to date on analysing face, (im)politeness, teasing and humour, indirectness, and intention. He works with recordings and 
-              transcriptions of naturally occuring spoken interactions, as well as data from digitally-mediated forms of communications. He has been 
-              involved in the establishment of the Australian National Corpus, and is interested in further developing methods in corpus-assisted pragmatics.</p>
-        </div>
-        <div class="col-md-4 px-0 ">
-          <img class="m-5 mt-7 border border-info "src="https://slcladal.github.io/images/michaelhaugh.jpeg" alt="">
-        </div>
-      </div>
-        
+          <div class="col-md-8 px-0">
+              <h1 class="display-5 font-italic">Michael Haugh</h1>
+              <p class="lead my-3">Michael is Professor of Linguistics and Head of the School of Languages and Cultures. At LADAL, Michael is supervising 
+                the activities of LADAL and promoting its activities across Australia. His research interests lie primarily in the field of pragmatics, 
+                with a focus to date on analysing face, (im)politeness, teasing and humour, indirectness, and intention. He works with recordings and 
+                transcriptions of naturally occuring spoken interactions, as well as data from digitally-mediated forms of communications. He has been 
+                involved in the establishment of the Australian National Corpus, and is interested in further developing methods in corpus-assisted pragmatics.</p>
+          </div>
+          <div class="col-md-4 px-0 ">
+            <img class="m-5 mt-7 border our_people_img"src="https://slcladal.github.io/images/michaelhaugh.jpeg" alt="">
+          </div>
+        </div>        
       </div>
 
       <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark shadow-lg ">
-        <div class="col-md-6 px-0">
-            <h1 class="display-4 font-italic">Martin Schweinberger</h1>
-            <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently
-                about what's most interesting in this post's contents.</p>
-            <p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Continue reading...</a></p>
+        <div class="row">
+          <div class="col-md-4 px-0 ">
+            <img class="m-5 mt-7 our_people_img"src="https://slcladal.github.io/images/martinschweinberger.jpeg" alt="">
+          </div>
+          <div class="col-md-6 px-0">
+              <h1 class="display-4 font-italic">Martin Schweinberger</h1>
+              <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently
+                  about what's most interesting in this post's contents.</p>
+              <p class="lead mb-0">
+                <a href="#" class="text-white font-weight-bold" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Continue reading...</a>
+            </p>
+            <div class="collapse" id="collapseExample">
+              <div class="card card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+              </div>
+            </div>
+
+
+
+
+
+          </div>
         </div>
       </div>
     </div>
